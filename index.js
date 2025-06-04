@@ -1,0 +1,14 @@
+$(function(){
+  $(".Behind").click(function(e){
+    e.preventDefault()
+    $(".modal").fadeIn();
+  });
+  $(".back").click(function(e){
+    e.preventDefault()
+    $(".modal").fadeOut();
+  })
+  $(".modal").click(function(e){
+    e.preventDefault()
+    $(".modal").fadeOut();
+  })
+});
