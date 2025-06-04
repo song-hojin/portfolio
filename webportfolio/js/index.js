@@ -1,0 +1,20 @@
+$(function(){
+  $(".loginBtn").click(function(e){
+    e.preventDefault()
+    $(".modal").fadeIn();
+  });
+  $(".closeBtn").click(function(e){
+    e.preventDefault()
+    $(".modal").fadeOut();
+  })
+  $(".joinBtn").click(function(e){
+    e.preventDefault()
+    $(".modal").fadeOut();
+    $(".modal2").fadeIn();
+  })
+  $(".backBtn").click(function(e){
+    e.preventDefault()
+    $(".modal2").fadeOut();
+    $(".modal").fadeIn();
+  })
+});

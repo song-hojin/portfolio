@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+hr {
+  margin: 50px 0;
+  opacity: 0;
+}
+
+.inner{
+  width: 1200px;
+  margin: 0 auto;
+}
+/* header*/
+header{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+  z-index: 500;
+}
+
+header>div{
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1{
+  width: 180px;
+  height: 100%;
+}
+
+header h1 img{
+  width: 100%;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+/* nav */
+nav ul {
+  width: 780px;
+  height: 100px;
+  line-height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a{
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+
+nav ul li:hover a{
+  color: #ff99cc;
+}
+
+/* utilMenu */
+header .utilMenu{
+  width: 120px;
+  height: 100px;
+  line-height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .utilMenu li a{
+  font-size: 18px;
+  display: block;
+}
+
+header .utilMenu li:hover a{
+  text-decoration: underline;
+}
+
+section {
+  overflow: hidden;
+  border-radius: 80px;
+}
+
+section ul {
+  width: 500%;
+  position: relative;
+  left: 0;
+  animation: move 10s infinite;
+}
+
+@keyframes move{
+  from{
+      left: 0;
+  }
+  33.33%{
+      left: -100%;
+  }
+  66.66%{
+      left: -200%;
+  }
+  to{
+      left: -300%;
+  }
+}
+
+section ul li {
+  float: left;
+  width: 1200px;
+}
+
+section ul li a img {
+  width: 100%;
+}
+
+.newMenu div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.newMenu h2{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.newMenu ul{
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.bestMenu div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.newMenu ul li{
+  width: 220px;
+}
+.newMenu ul li img{
+  width: 100%;
+}
+
+.bestMenu h2{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.bestMenu ul{
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.bestMenu ul li{
+  width: 220px;
+}
+.bestMenu ul li img{
+  width: 100%;
+}
+
+.instagram h2{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.instagram{
+  overflow: hidden;
+}
+
+.instagram ul{
+  width: 500%;
+}
+
+.instagram ul li{
+  float: left;
+  margin-right: 20px;
+}
+
+footer {
+  width: 100%;
+  padding: 50px 0;
+  background-color: rgb(79, 79, 79);
+  color: #d2d1d1;
+}
+
+footer h3 {
+  margin-bottom: 15px;
+}
+
+footer .infomation {
+  float: left;
+}
+
+footer .infomation .info_ko {
+  float: left;
+  margin-right: 50px;
+  line-height: 1.8;
+}
+
+footer .infomation .info_en {
+  float: left;
+  line-height: 1.8;
+}
+
+footer .community {
+  float: right;
+}
+
+footer .community .sns {
+  margin-bottom: 30px;
+}
+
+footer .community .sns li {
+  margin-bottom: 10px;
+}
+
+footer .community .sns li img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+footer .community ul li a{
+  color: #d2d1d1;
+}
+
+footer .community .help {
+  line-height: 1.8;
+}
+
+footer .copyright {
+  clear: both;
+}
+
+footer .copyright a{
+  color: #d2d1d1;
+}
+
+footer .copyright a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+$(function(){
+  $(".btn").click(function(e){
+      e.preventDefault();
+      $(".modal3").fadeIn();
+  })
+  $(".mainBtn").click(function(e){
+      e.preventDefault();
+      $(".modal3").fadeOut();
+  })
+})

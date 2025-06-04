@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+hr {
+  margin: 50px 0;
+  opacity: 0;
+}
+
+.inner{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* header*/
+header{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+  z-index: 500;
+}
+
+header>div{
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1{
+  width: 180px;
+  height: 100%;
+}
+
+header h1 img{
+  width: 100%;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+/* nav */
+nav ul {
+  width: 780px;
+  height: 100px;
+  line-height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a{
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+
+nav ul li:hover a{
+  color: #ff99cc;
+}
+
+/* utilMenu */
+header .utilMenu{
+  width: 120px;
+  height: 100px;
+  line-height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .utilMenu li a{
+  font-size: 18px;
+  display: block;
+}
+
+header .utilMenu li:hover a{
+  text-decoration: underline;
+}
+
+.eventTop{
+  width: 1200px;
+  height: 470px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px 10px #10536d44;
+  border-radius: 80px;
+}
+
+.eventTop img{
+  width: 100%;
+}
+
+.eventBanner{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0px 0px 20px 10px #10536d44;
+  border-radius: 80px;
+}
+
+.eventBanner img{
+  width: 100%;
+}
+.eventBanner .eventBtn a{
+  position: absolute;
+  bottom: 80px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  width: 500px;
+    height: 130px;
+    background-color: #10536D;
+    border-radius: 65px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 130px;
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+  width: 100%;
+  padding: 50px 0;
+  background-color: rgb(79, 79, 79);
+  color: #d2d1d1;
+}
+
+footer h3 {
+  margin-bottom: 15px;
+}
+
+footer .infomation {
+  float: left;
+}
+
+footer .infomation .info_ko {
+  float: left;
+  margin-right: 50px;
+  line-height: 1.8;
+}
+
+footer .infomation .info_en {
+  float: left;
+  line-height: 1.8;
+}
+
+footer .community {
+  float: right;
+}
+
+footer .community .sns {
+  margin-bottom: 30px;
+}
+
+footer .community .sns li {
+  margin-bottom: 10px;
+}
+
+footer .community .sns li img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+footer .community ul li a{
+  color: #d2d1d1;
+}
+
+footer .community .help {
+  line-height: 1.8;
+}
+
+footer .copyright {
+  clear: both;
+}
+
+footer .copyright a{
+  color: #d2d1d1;
+}
+
+footer .copyright a:hover {
+  text-decoration: underline;
+}
