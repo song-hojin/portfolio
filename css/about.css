@@ -116,16 +116,18 @@ section{
   display: flex;
   justify-content: space-between;
   padding-top: 400px;
+  
   box-sizing: border-box;
 }
 
 section h1{
   font-size: 50px;
+  padding-right: 10%;
 }
 
 section p{
   width: 750px;
-  font-size: 18px;
+  /* font-size: 16px; */
   line-height: 2;
   padding: 15px 0;
   box-sizing: border-box;

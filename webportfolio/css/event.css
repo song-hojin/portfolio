@@ -1,26 +1,31 @@
-*{
+@charset "utf-8";
+
+* {
   margin: 0;
   padding: 0;
 }
-li{
+
+li {
   list-style: none;
 }
-a{
+
+a {
   text-decoration: none;
   color: black;
 }
+
 hr {
   margin: 50px 0;
   opacity: 0;
 }
 
-.inner{
+.inner {
   width: 1200px;
   margin: 0 auto;
 }
 
 /* header*/
-header{
+header {
   width: 100%;
   height: 100px;
   background-color: rgb(255, 255, 255);
@@ -29,21 +34,22 @@ header{
   z-index: 500;
 }
 
-header>div{
+header>div {
   display: flex;
   justify-content: space-between;
 }
 
-header h1{
+header h1 {
   width: 180px;
   height: 100%;
 }
 
-header h1 img{
+header h1 img {
   width: 100%;
   padding-top: 10px;
   box-sizing: border-box;
 }
+
 /* nav */
 nav ul {
   width: 780px;
@@ -53,18 +59,18 @@ nav ul {
   justify-content: space-between;
 }
 
-nav ul li a{
+nav ul li a {
   font-size: 18px;
   font-weight: bold;
   display: block;
 }
 
-nav ul li:hover a{
+nav ul li:hover a {
   color: #ff99cc;
 }
 
 /* utilMenu */
-header .utilMenu{
+header .utilMenu {
   width: 120px;
   height: 100px;
   line-height: 100px;
@@ -72,16 +78,16 @@ header .utilMenu{
   justify-content: space-between;
 }
 
-header .utilMenu li a{
+header .utilMenu li a {
   font-size: 18px;
   display: block;
 }
 
-header .utilMenu li:hover a{
+header .utilMenu li:hover a {
   text-decoration: underline;
 }
 
-.eventTop{
+.eventTop {
   width: 1200px;
   height: 470px;
   margin: 0 auto;
@@ -89,11 +95,11 @@ header .utilMenu li:hover a{
   border-radius: 80px;
 }
 
-.eventTop img{
+.eventTop img {
   width: 100%;
 }
 
-.eventBanner{
+.eventBanner {
   width: 1200px;
   margin: 0 auto;
   position: relative;
@@ -101,23 +107,24 @@ header .utilMenu li:hover a{
   border-radius: 80px;
 }
 
-.eventBanner img{
+.eventBanner img {
   width: 100%;
 }
-.eventBanner .eventBtn a{
+
+.eventBanner .eventBtn a {
   position: absolute;
   bottom: 80px;
-    left: 50%;
-    transform: translate(-50%,-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 500px;
-    height: 130px;
-    background-color: #10536D;
-    border-radius: 65px;
-    font-size: 50px;
-    text-align: center;
-    line-height: 130px;
-    font-weight: bold;
-    color: white;
+  height: 130px;
+  background-color: #10536D;
+  border-radius: 65px;
+  font-size: 50px;
+  text-align: center;
+  line-height: 130px;
+  font-weight: bold;
+  color: white;
 }
 
 footer {
@@ -163,7 +170,7 @@ footer .community .sns li img {
   margin-right: 10px;
 }
 
-footer .community ul li a{
+footer .community ul li a {
   color: #d2d1d1;
 }
 
@@ -175,7 +182,7 @@ footer .copyright {
   clear: both;
 }
 
-footer .copyright a{
+footer .copyright a {
   color: #d2d1d1;
 }
 

@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @font-face {
   font-family: 'NanumSquareRound';
   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
@@ -19,24 +21,29 @@
 }
 
 /* index */
-.newMenu h2,.bestMenu h2,.instagram h2{
+.newMenu h2,
+.bestMenu h2,
+.instagram h2 {
   font-family: NanumSquareRound;
 }
 
 /* event */
-.eventBanner .eventBtn{
+.eventBanner .eventBtn {
   font-family: NanumSquareRound;
 }
+
 /* event-popUP-coupon */
 .coupon ul li:nth-child(1),
-.coupon ul li:nth-child(2){
+.coupon ul li:nth-child(2) {
   font-family: NanumSquareRound;
 }
+
 /* login-popUp */
-.loginBox .top li:nth-child(2){
+.loginBox .top li:nth-child(2) {
   font-family: NanumSquareRound;
 }
+
 /* 회원가입 완료 팝업 */
-.ok ul li:nth-child(2){
+.ok ul li:nth-child(2) {
   font-family: NanumSquareRound;
 }
